@@ -3,7 +3,6 @@ const Issue = require('../models/issues');
         // First Controller FOR HOMEsCREEN
 module.exports.home = function ( req , res ){
     Project.find({} , function( err , projects ){
-        
         res.render('layout',{
             projects : projects
         });
@@ -14,7 +13,7 @@ module.exports.create = function( req , res ){
     Project.create( req.body , function(err , project){
         if(err){ console.log('Error occur while creating the project : ',err)}
     })
-    res.redirect('/');
+    res.redirect('back');
 }
         // TO REMOVE THE PROJECT
 module.exports.destroy = async function( req , res ){
