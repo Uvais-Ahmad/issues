@@ -11,7 +11,7 @@
   2. Start by installing npm if you don't have it already.
   3. Navigate to Project Directory by : Using
   ```
-  cd employee-review-system
+  cd issueTracker
   
   ```
   
@@ -20,4 +20,22 @@
   $ npm install
   $ nodemon index.js 
   ```
+  
+## Important Link:
+
+- **Youtube Video URL**: 
+- **Hosting Link**: https://issuestrack.herokuapp.com/
+
+<br/>
+
+  
+## Directory Structure  
+  * ```/config``` - MongooDB Atlas Configuration
+  * ```/controllers``` - issues and project controllers code
+  * ```/model``` - Issues and Project. 
+  * ```/routes``` - all routes according to project and issues
+  * ```/views``` - all ejs files
+  * ```index.js``` - entry file
+  
+  
   
