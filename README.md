@@ -24,7 +24,7 @@
 ## Important Link:
 
 - **Youtube Video URL**: https://youtu.be/rFiFMkTtBio
-- **Hosting Link**: https://issuestrack.herokuapp.com/
+- **Hosting Link**: https://issue-tracker-v9hh.onrender.com
 
 <br/>
 
